@@ -1,7 +1,7 @@
 import socket
 import threading
 
-import rsa
+import rsa             #rsa was installed using pip install rsa
 
 
 choice = input("Do you want to host (1) or to connect (2): ")
