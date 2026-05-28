@@ -7,7 +7,7 @@ import rsa             #rsa was installed using pip install rsa
 choice = input("Do you want to host (1) or to connect (2): ")
 if choice == "1":
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(("ipv4 address", 9999))
+    server.bind(("ipv4 address", 9999))  # enter cmd type: ipconfig to get ipv4 adress
     server.listen()
 
 
