@@ -10,7 +10,7 @@ if choice == "1":
     server.bind(("ipv4 address", 9999))  # enter cmd type: ipconfig to get ipv4 adress
     server.listen()
 
-
+  
     client, _ = server.accept()
 
 elif choice == "2":
